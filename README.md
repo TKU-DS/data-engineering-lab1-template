@@ -18,9 +18,11 @@ We will use **GitHub Codespaces** to simulate a constrained edge device (2-core 
 3. Locate the `TODO 1` to `TODO 4` markers.
 4. Import the `time` module (already done for you) and use `time.time()` to measure the execution duration of both writing methods.
 5. Run the script in the terminal:
+
    ```bash
    python lab1_pipeline.py
-   ```
+
+```
 
 6. Observe the terminal output. You should see a massive delta (time difference) between Test 1 and Test 2.
 
@@ -37,13 +39,21 @@ To complete this lab:
 
 1. Ensure your `lab1_pipeline.py` runs successfully and prints the correct durations.
 2. Commit your changes:
-   ```bash
+```bash
 git add lab1_pipeline.py
 git commit -m "Complete Lab 1 I/O benchmark"
-   ```
+
+```
+
 
 3. Push the code back to your GitHub repository:
-   ```bash
+```bash
 git push origin main
-   ```
+
+```
+
+
+
 *Note: Do NOT commit the generated `sensor_data.csv` file. Our `.gitignore` should handle this automatically.*
+
+```
